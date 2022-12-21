@@ -6,7 +6,7 @@ import Blob from '~/assets/hero-blob.svg'
 /* import Blob from '~/assets/hero-blob.svg'
 import Dots from '~/assets/dots.svg' */
 
-// TODO: move to @alvarosabu/utils
+// TODO: move to @as1024/utils
 
 const browser = process.client ? navigator.userAgent : ''
 

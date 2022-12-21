@@ -32,7 +32,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'AsUtils',
-      fileName: 'as-utils',
+      fileName: 'as1024-utils',
     },
   },
 })

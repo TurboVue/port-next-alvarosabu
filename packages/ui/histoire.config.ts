@@ -10,7 +10,7 @@ import { primary } from './src/styles/as-theme'
 
 export default defineConfig({
   theme: {
-    title: '@alvarosabu/ui',
+    title: '@as1024/ui',
     logo: {
       light: '/light-banner.png',
       dark: '/dark-banner.png',

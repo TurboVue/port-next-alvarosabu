@@ -1,7 +1,7 @@
 import { defineConfig } from 'histoire'
 import { HstVue } from '@histoire/plugin-vue'
 import { HstNuxt } from '@histoire/plugin-nuxt'
-import AsUI from '@alvarosabu/ui/'
+import AsUI from '@as1024/ui'
 
 export default defineConfig({
   theme: {

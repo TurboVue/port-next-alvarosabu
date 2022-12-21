@@ -5,3 +5,4 @@ packages/.DS_Store
 .pnpm-store/
 # Local Netlify folder
 .netlify
+/pnpm-lock.yaml

@@ -9,7 +9,7 @@ import { resolve } from "pathe";
 
 // package.json
 var package_default = {
-  name: "@alvarosabu/ui",
+  name: "@as1024/ui",
   version: "2.17.0",
   type: "module",
   description: "UI Library for AS development",

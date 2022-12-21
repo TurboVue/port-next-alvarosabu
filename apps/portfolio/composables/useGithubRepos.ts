@@ -2,7 +2,7 @@ import { computed } from 'vue'
 import { RemovableRef, useStorage } from '@vueuse/core'
 import { differenceInHours } from 'date-fns'
 
-import { snakeToCamel } from '@alvarosabu/utils'
+import { snakeToCamel } from '@as1024/utils'
 import { useLogger } from './useLogger'
 
 export enum Language {

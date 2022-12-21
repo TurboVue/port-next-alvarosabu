@@ -1,6 +1,6 @@
 import { plugin, defaultResolvers } from '@marvr/storyblok-rich-text-vue-renderer'
 import { NodeTypes } from '@marvr/storyblok-rich-text-types'
-import { AsCodeBlock } from '@alvarosabu/ui'
+import { AsCodeBlock } from '@as1024/ui'
 import TheLazy from '@/components/the-lazy/TheLazy.vue'
 
 const LazyTextImage = defineAsyncComponent(() => import('@/storyblok/text-image/TextImage.vue'))

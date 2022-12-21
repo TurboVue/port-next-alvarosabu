@@ -40,7 +40,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'AsUI',
-      fileName: 'as-ui',
+      fileName: 'as1024-ui',
     },
     watch: {
       include: [resolve(__dirname, 'src')],

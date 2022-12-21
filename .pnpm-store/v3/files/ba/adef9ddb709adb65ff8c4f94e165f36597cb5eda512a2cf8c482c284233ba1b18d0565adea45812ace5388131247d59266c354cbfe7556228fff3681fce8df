@@ -1,2 +1,0 @@
-export declare const searchData: Record<string, any>;
-export declare function onUpdate(cb: (data: typeof searchData) => unknown): void;

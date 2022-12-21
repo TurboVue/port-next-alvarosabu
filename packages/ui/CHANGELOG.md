@@ -1,4 +1,4 @@
-# @alvarosabu/ui
+# @as1024/ui
 
 ## 2.18.1
 

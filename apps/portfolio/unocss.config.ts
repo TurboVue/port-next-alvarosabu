@@ -1,4 +1,4 @@
-import AsUI from '@alvarosabu/ui/'
+import AsUI from '@as1024/ui'
 import {
   defineConfig,
   presetUno,

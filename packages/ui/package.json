@@ -1,23 +1,19 @@
 {
-  "name": "@alvarosabu/ui",
+  "name": "@as1024/ui",
   "version": "2.18.1",
   "type": "module",
   "description": "UI Library for AS development",
   "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",
-  "files": [
-    "dist"
-  ],
-  "license": "MIT",
-  "main": "./dist/as-ui.umd.cjs",
-  "module": "./dist/as-ui.js",
+  "main": "./dist/as1024-ui.umd.cjs",
+  "module": "./dist/as1024-ui.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/as-ui.js",
-      "require": "./dist/as-ui.umd.cjs"
+      "import": "./dist/as1024-ui.js",
+      "require": "./dist/as1024-ui.umd.cjs"
     },
     "./styles": "./dist/style.css",
-    "./*": "./dist/as-ui.js"
+    "./*": "./dist/as1024-ui.js"
   },
   "publishConfig": {
     "access": "public"

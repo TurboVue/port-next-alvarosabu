@@ -1,2 +1,0 @@
-import type { Variant } from '../types';
-export declare function generateSourceCode(variant: Variant): Promise<string>;

@@ -1,5 +1,5 @@
 {
-  "name": "@alvarosabu/prettier-config",
+  "name": "@as1024/prettier-config",
   "version": "1.2.0",
   "description": "",
   "keywords": [],
@@ -16,6 +16,6 @@
     "prettier": ">=2.3.2"
   },
   "devDependencies": {
-    "eslint": "^2.3.2"
+    "eslint": "8.30.0"
   }
 }

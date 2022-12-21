@@ -13,8 +13,10 @@ export default defineNuxtConfig({
   app: {
     head,
   },
-  css: ['@alvarosabu/ui/styles', 'lite-youtube-embed/src/lite-yt-embed.css', '/styles/forms.scss'],
-  /*   modules: ['@alvarosabu/nuxt3-markdownit'], */
+  css: [
+    // '@as1024/ui/styles',
+    'lite-youtube-embed/src/lite-yt-embed.css', '/styles/forms.scss'],
+  /*   modules: ['@as1024/nuxt3-markdownit'], */
   build: {
     transpile: ['@marvr/storyblok-rich-text-vue-renderer'],
   },

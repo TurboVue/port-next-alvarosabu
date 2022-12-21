@@ -1,4 +1,0 @@
-import { Ref } from 'vue';
-export declare function useScrollOnActive(active: Ref<boolean>, el: Ref<HTMLElement>): {
-    autoScroll: () => void;
-};

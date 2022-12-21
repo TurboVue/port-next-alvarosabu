@@ -1,4 +1,4 @@
-# @alvarosabu/utils
+# @as1024/utils
 
 ## 2.2.0
 

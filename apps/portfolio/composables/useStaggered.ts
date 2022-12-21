@@ -1,4 +1,4 @@
-import { Fn } from '@alvarosabu/utils'
+import { Fn } from '@as1024/utils'
 
 const STAGGER_DURATION = 200
 
