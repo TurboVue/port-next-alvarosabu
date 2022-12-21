@@ -3,7 +3,7 @@
   "private": true,
   "version": "2.7.0",
   "scripts": {
-    "dev": "nuxt dev --port=2590",
+    "dev": "nuxt dev --port=2590 --https --ssl-cert localhost.pem --ssl-key localhost-key.pem",
     "dev:https": "nuxt dev --https --port=2591",
     "build": "nuxt build",
     "build:e2e:ci": "pnpm run -w build:ui && nuxt build",

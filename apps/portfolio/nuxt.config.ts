@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     head,
   },
   css: [
-    // '@as1024/ui/styles',
+    '@as1024/ui/styles',
     'lite-youtube-embed/src/lite-yt-embed.css', '/styles/forms.scss'],
   /*   modules: ['@as1024/nuxt3-markdownit'], */
   build: {
@@ -30,6 +30,9 @@ export default defineNuxtConfig({
       {
         accessToken: process.env.STORYBLOK_API_TOKEN,
         useApiClient: true,
+        apiOptions: {
+          region: 'us'
+        }
       },
     ],
   ],

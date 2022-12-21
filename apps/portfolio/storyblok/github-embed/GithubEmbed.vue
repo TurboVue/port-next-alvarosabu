@@ -59,7 +59,7 @@ const embedType: Ref<GithubEmbedType> = ref(githubEmbedType.REPO)
 const md = new MarkdownIt()
 
 const url = computed(() => {
-  const { url } = props.blok.url
+  const url = props.blok.url
 
   if (url.includes(githubEmbedType.ISSUE)) {
     embedType.value = githubEmbedType.ISSUE
