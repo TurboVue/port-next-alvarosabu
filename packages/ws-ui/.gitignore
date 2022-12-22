@@ -1,0 +1,13 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+.env
+stats.html
+/.idea/.gitignore
+/.idea/modules.xml
+/pnpm-lock.yaml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
+/.idea/ws-ui.iml

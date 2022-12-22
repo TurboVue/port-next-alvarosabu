@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "antfu.iconify",
+    "antfu.unocss",
+    "buianhthang.gitflow",
+    "csstools.postcss",
+    "dbaeumer.vscode-eslint",
+    "johnpapa.vscode-peacock",
+    "voorjaar.windicss-intellisense",
+    "vue.volar",
+  ]
+}

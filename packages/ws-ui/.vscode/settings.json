@@ -1,0 +1,73 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar",
+  },
+  "[typescript, javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.linkedEditing": true,
+  "css.customData": [
+    "./.vscode/css-data.json"
+  ],
+  "html.autoClosingTags": true,
+  "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeActionsOnSave.mode": "problems",
+  "eslint.validate": [
+    "vue",
+    "json",
+    "javascript",
+    "typescript"
+  ],
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".vue",
+      ".json",
+      ".ts"
+    ]
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": false,
+    "**/tsconfig.tsbuildinfo": true,
+  },
+  "git.inputValidation": "off",
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#93e6fc",
+    "activityBar.activeBorder": "#fa45d4",
+    "activityBar.background": "#93e6fc",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#fa45d4",
+    "activityBarBadge.foreground": "#15202b",
+    "sash.hoverBorder": "#93e6fc",
+    "statusBar.background": "#61dafb",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#2fcefa",
+    "statusBarItem.remoteBackground": "#61dafb",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#61dafb",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#61dafb99",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#61dafb",
+}

@@ -35,8 +35,7 @@
     "test:utils": "pnpm run --filter utils test:ci",
     "clean": "pnpm -r exec rm -rf node_modules",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.vue",
-    "lint:fix": "eslint . --fix --ext .js,.jsx,.ts,.tsx,.vue",
-    "postinstall": "turbo run build --filter '{packages/**}'"
+    "lint:fix": "eslint . --fix --ext .js,.jsx,.ts,.tsx,.vue"
   },
   "devDependencies": {
     "@as1024/prettier-config": "workspace:^1.1.0",
