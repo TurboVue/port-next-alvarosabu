@@ -1,6 +1,0 @@
-**/node_modules
-**/dist
-*.svg
-*.md
-*.css
-package.json
